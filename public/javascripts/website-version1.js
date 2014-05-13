@@ -6,4 +6,5 @@ $(document).ready(function(){
     $("#masters").click(function(){
         $("#masters-description").slideToggle("slow");
 })
+    $('#education').find('.education-title').width($(window).width())
 })
