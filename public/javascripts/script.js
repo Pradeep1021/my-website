@@ -252,6 +252,8 @@ $(".rotate").textrotator({
 
 
 
+
+
 $(".loading").textrotator({
         animation: "fade",
     	speed: 1000

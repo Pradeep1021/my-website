@@ -22,6 +22,7 @@ html
         script(src='/javascripts/waypoints.js', type='text/javascript')
         script(src='/javascripts/script.js', type='text/javascript')
         script(src='/javascripts/slides.min.jquery.js', type='text/javascript')
+        script(src='/javascripts/website-version1.js', type='text/javascript')
     body
         #wrapper
             //
@@ -63,13 +64,13 @@ html
                           Teaser title
                         .teaserTitle
                             h1
-                                span.rotate(style='display: inline; opacity: 0.9066697499999999;')  i am a developer
+                                span.intro(style='display: inline; opacity: 0.9066697499999999;') I am A Developer
                         //
                           End teaser title
                         //
                           Caption
                         .captions
-                            p Director, Actor, Singer
+                            //p Director, Actor, Singer
                         //
                           End caption
                     //
@@ -112,10 +113,10 @@ html
                             img.profile-pic(src='/images/pradeep.jpg', height='200', width='200')
                         .getBtn
                             .ico
-                                a(href='#')
+                                a(href='/files/Pradeep_CV.pdf')
                                     i.fa.fa-print
                             .ico
-                                a(href='#')
+                                a(href='/files/Pradeep_CV.pdf')
                                     i.fa.fa-download
                             h3 Print / Download My CV
                         .followBtn
