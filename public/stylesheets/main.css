@@ -1287,6 +1287,9 @@ ul#category li a:hover{
 
 
 /*Contact*/
+#contact{
+    display: none;
+}
 
 #contact .secTitle{
 	background:#ffbe00;

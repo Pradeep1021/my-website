@@ -55,5 +55,14 @@ app.use(function(err, req, res, next) {
     });
 });
 
+var mongoose= require('mongoose');
+mongoose.connect('mongodb://localhost/MyWebSite',function(err,docs){
+    if(err)
+        console.log(err)
+    else
+        require('./Models/user')
+})
+
 
 module.exports = app;
+
